@@ -10,7 +10,7 @@
   }
 
   &--dark-bg {
-    color: $txt-dark-bg-color;
+    color: var(--txt-dark-bg-color);
   }
 }
 

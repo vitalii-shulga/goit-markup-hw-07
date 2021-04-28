@@ -6,20 +6,20 @@
   justify-content: center;
   width: 200px;
   height: 50px;
-  background-color: $accent-color;
+  background-color: var(--accent-color);
 
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
-  color: $txt-dark-bg-color;
+  color: var(--txt-dark-bg-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
-  transition: background-color $time $timing-function;
+  transition: background-color var(--time) var(--timing-function);
 
   &:hover,
   &:focus {
-    background-color: $second-accent-color;
+    background-color: var(--second-accent-color);
   }
 }
 
@@ -27,20 +27,20 @@
   @extend %button;
 
   padding: 6px 22px;
-  background-color: $bg-gray-color;
+  background-color: var(--bg-gray-color);
 
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
-  color: $txt-title-color;
+  color: var(--txt-title-color);
 
-  transition: color $time $timing-function, background-color $time $timing-function, box-shadow $time $timing-function;
+  transition: color var(--time) var(--timing-function), background-color var(--time) var(--timing-function), box-shadow var(--time) var(--timing-function);
 
   &:hover,
   &:focus {
-    color: $txt-dark-bg-color;
-    background-color: $accent-color;
+    color: var(--txt-dark-bg-color);
+    background-color: var(--accent-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   }
 }
@@ -63,11 +63,11 @@
   height: 18px;
 
   transform: scale(1);
-  transition: fill $time $timing-function, transform $time $timing-function;
+  transition: fill var(--time) var(--timing-function), transform var(--time) var(--timing-function);
 
   .btn-close:hover &,
   .btn-close:focus & {
-    fill: $accent-color;
+    fill: var(--accent-color);
     transform: scale(1.2);
   }
 }

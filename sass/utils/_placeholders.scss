@@ -9,12 +9,12 @@
   text-decoration: none;
   color: inherit;
 
-  transition: color $time $timing-function;
+  transition: color var(--time) var(--timing-function);
 
   &:hover,
   &:focus,
   &.current {
-    color: $accent-color;
+    color: var(--accent-color);
   }
 }
 
@@ -27,5 +27,5 @@
 
 %title {
   font-weight: 700;
-  color: $txt-title-color;
+  color: var(--txt-title-color);
 }

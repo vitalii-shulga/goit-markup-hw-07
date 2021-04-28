@@ -7,14 +7,14 @@
   font-weight: 700;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: $accent-color;
+  color: var(--accent-color);
   text-decoration: none;
 }
 
 .logo__sec-part {
-  color: $txt-title-color;
+  color: var(--txt-title-color);
 
   &--dark-bg {
-    color: $txt-dark-bg-color;
+    color: var(--txt-dark-bg-color);
   }
 }

@@ -19,7 +19,7 @@
   position: relative;
   padding-top: 32px;
   padding-bottom: 31px;
-  color: $txt-title-color;
+  color: var(--txt-title-color);
 
   &.current::after {
     content: '';
@@ -29,6 +29,6 @@
     width: 100%;
     height: 4px;
     border-radius: 2px;
-    background-color: $accent-color;
+    background-color: var(--accent-color);
   }
 }
