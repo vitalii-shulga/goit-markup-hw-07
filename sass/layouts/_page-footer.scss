@@ -4,13 +4,13 @@
   background-color: $bg-dark-color;
 }
 
-.page-footer .container {
+.page-footer__container {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
 }
 
-.page-footer__item {
+.page-footer__block {
   flex-basis: calc((50% - 45px) / 2);
 
   &:last-child {
@@ -18,12 +18,7 @@
   }
 }
 
-.page-footer__logo {
-  margin-bottom: 20px;
-}
-
-.join__title,
-.subscribe__title {
+.page-footer__title {
   display: block;
   margin-bottom: 20px;
   font-weight: 700;
@@ -34,7 +29,11 @@
   color: $txt-dark-bg-color;
 }
 
-.subscribe__field {
+.page-footer__logo {
+  margin-bottom: 20px;
+}
+
+.subscribe {
   display: flex;
 }
 

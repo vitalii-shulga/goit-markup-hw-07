@@ -7,14 +7,13 @@
     <title>Portfolio</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet" />
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.2.0/modern-normalize.min.css" /> -->
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
 
   <body>
     <!-- page header -->
     <header class="page-header">
-      <div class="container">
+      <div class="page-header__container container">
         <nav class="page-nav">
           <a class="logo page-header__logo" href="./index.html">Web<span class="logo__sec-part">Studio</span></a>
           <ul class="page-nav__list">
@@ -222,9 +221,9 @@
 
     <!-- page footer -->
     <footer class="page-footer">
-      <div class="container">
-        <div class="page-footer__item">
-          <a class="logo page-footer__logo" href="./index.html">Web<span class="logo__sec-part--dark-bg">Studio</span></a>
+      <div class="page-footer__container container">
+        <div class="page-footer__block">
+          <a class="page-footer__logo logo" href="./index.html">Web<span class="logo__sec-part--dark-bg">Studio</span></a>
           <address class="address">
             <ul class="address__list">
               <li class="address__item address__item--dark-bg">
@@ -239,8 +238,8 @@
             </ul>
           </address>
         </div>
-        <div class="page-footer__item join">
-          <p class="join__title">ПРИСОЕДИНЯЙТЕСЬ</p>
+        <div class="page-footer__block">
+          <p class="page-footer__title">ПРИСОЕДИНЯЙТЕСЬ</p>
           <ul class="social">
             <li class="social__item">
               <a class="social__link social__link--dark-bg" href="" target="_blank" rel="noopener noreferrer">
@@ -272,12 +271,12 @@
             </li>
           </ul>
         </div>
-        <div class="page-footer__item">
-          <form class="subscribe">
-            <label class="subscribe__title" for="email">ПОДПИШИТЕСЬ НА РАССЫЛКУ</label>
-            <div class="subscribe__field">
+        <div class="page-footer__block">
+          <form class="page-footer__form">
+            <label class="page-footer__title" for="email">ПОДПИШИТЕСЬ НА РАССЫЛКУ</label>
+            <div class="subscribe">
               <input class="subscribe__input" type="email" name="email" id="email" placeholder="E-mail" />
-              <button class="subscribe__button btn-submit button" type="submit">
+              <button class="btn-submit" type="submit">
                 Подписаться
                 <svg class="subscribe__icon" width="24" height="24">
                   <use href="./images/icons.svg#icon-send"></use>
