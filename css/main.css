@@ -352,20 +352,20 @@ template {
   --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.page-nav__list, .contact, .social, .address__list, .filter, .features__list, .about__list, .team__list, .clients__list, .portfolio {
+.menu, .contact, .social, .address__list, .filter, .features__list, .about__list, .team__list, .clients__list, .portfolio {
   list-style: none;
   padding-left: 0;
   margin-top: 0;
   margin-bottom: 0;
 }
 
-.page-nav__link, .contact__link, .social__link, .address__link, .form__checkbox-link, .clients__link, .portfolio__link {
+.menu__link, .contact__link, .social__link, .address__link, .form__checkbox-link, .clients__link, .portfolio__link {
   text-decoration: none;
   color: inherit;
   transition: color var(--time) var(--timing-function);
 }
 
-.page-nav__link:hover, .contact__link:hover, .social__link:hover, .address__link:hover, .form__checkbox-link:hover, .clients__link:hover, .portfolio__link:hover, .page-nav__link:focus, .contact__link:focus, .social__link:focus, .address__link:focus, .form__checkbox-link:focus, .clients__link:focus, .portfolio__link:focus, .current.page-nav__link, .current.contact__link, .current.social__link, .current.address__link, .current.form__checkbox-link, .current.clients__link, .current.portfolio__link {
+.menu__link:hover, .contact__link:hover, .social__link:hover, .address__link:hover, .form__checkbox-link:hover, .clients__link:hover, .portfolio__link:hover, .menu__link:focus, .contact__link:focus, .social__link:focus, .address__link:focus, .form__checkbox-link:focus, .clients__link:focus, .portfolio__link:focus, .current.menu__link, .current.contact__link, .current.social__link, .current.address__link, .current.form__checkbox-link, .current.clients__link, .current.portfolio__link {
   color: var(--accent-color);
 }
 
@@ -520,27 +520,22 @@ body {
   color: var(--txt-dark-bg-color);
 }
 
-.page-nav {
-  display: flex;
-  align-items: center;
-}
-
-.page-nav__list {
+.menu {
   display: flex;
 }
 
-.page-nav__item:not(:last-child) {
+.menu__item:not(:last-child) {
   margin-right: 50px;
 }
 
-.page-nav__link {
+.menu__link {
   position: relative;
   padding-top: 32px;
   padding-bottom: 31px;
   color: var(--txt-title-color);
 }
 
-.page-nav__link.current::after {
+.menu__link.current::after {
   content: '';
   position: absolute;
   bottom: 0px;
@@ -864,6 +859,11 @@ body {
   padding-top: 23px;
   padding-bottom: 23px;
   margin-right: 93px;
+}
+
+.page-nav {
+  display: flex;
+  align-items: center;
 }
 
 .page-footer {
