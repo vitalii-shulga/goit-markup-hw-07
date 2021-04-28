@@ -4,10 +4,8 @@
   display: inline-flex;
 }
 
-.social__item {
-  &:not(:last-child) {
-    margin-right: 10px;
-  }
+.social__item:not(:last-child) {
+  margin-right: 10px;
 }
 
 .social__link {

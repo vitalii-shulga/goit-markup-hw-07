@@ -4,10 +4,8 @@
   display: flex;
 }
 
-.contact__item {
-  &:not(:last-child) {
-    margin-right: 30px;
-  }
+.contact__item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .contact__link {
