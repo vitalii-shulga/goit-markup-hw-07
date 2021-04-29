@@ -32,7 +32,7 @@ img {
 body {
   position: relative;
   background-color: var(--bg-main-color);
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--font-main);
   font-style: normal;
   font-weight: 400;
   font-size: 14px;

@@ -1,4 +1,9 @@
 :root {
+  //   fonts
+  --font-main: 'Roboto', sans-serif;
+  --font-logo: 'Raleway', sans-serif;
+
+  // colors
   --txt-main-color: #757575;
   --txt-title-color: #212121;
   --txt-dark-bg-color: #ffffff;
@@ -10,6 +15,7 @@
   --second-accent-color: #188ce8;
   --border-color: #eeeeee;
 
+  //   animation
   --time: 250ms;
   --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }

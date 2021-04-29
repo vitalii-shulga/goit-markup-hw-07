@@ -338,6 +338,8 @@ template {
 }
 
 :root {
+  --font-main: 'Roboto', sans-serif;
+  --font-logo: 'Raleway', sans-serif;
   --txt-main-color: #757575;
   --txt-title-color: #212121;
   --txt-dark-bg-color: #ffffff;
@@ -428,7 +430,7 @@ img {
 body {
   position: relative;
   background-color: var(--bg-main-color);
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--font-main);
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -502,7 +504,7 @@ body {
 
 .logo {
   display: inline-block;
-  font-family: 'Raleway', sans-serif;
+  font-family: var(--font-logo);
   font-size: 26px;
   font-style: normal;
   font-weight: 700;
